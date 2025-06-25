@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Abhinash Kumar Yadav - Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <img
+      src="myphotomy.jpg"
+      alt="Profile Picture"
+      class="profile-pic"
+      id="profilePic"
+      title="Click me to toggle grayscale!"
+      tabindex="0"
+    />
+    <h1>Abhinash Kumar Yadav</h1>
+    <p class="title">Student at IOE Purwanchal Campus<br> Dharan, Nepal</p>
+
+    <nav class="social-links" aria-label="Social Links">
+      <a href="https://github.com" target="_blank" rel="noopener" aria-label="GitHub" tabindex="0" title="GitHub">
+        &#x1F5C3;
+      </a>
+      <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn" tabindex="0" title="LinkedIn">
+        &#128100;
+      </a>
+      <a href="mailto:your@email.com" aria-label="Email" tabindex="0" title="Email">
+        &#9993;
+      </a>
+    </nav>
+
+    <section class="section" id="about">
+      <h2>About Me</h2>
+      <p>
+        Carving into future 
+      </p>
+    </section>
+
+    <section class="section" id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Python & NumPy</li>
+        <li>Data Analysis & Visualization</li>
+        <li>Machine Learning</li>
+        <li>React & JavaScript</li>
+        <li>SQL & NoSQL</li>
+      </ul>
+    </section>
+
+    <section class="section" id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>Stock Price Predictor with LSTM</li>
+        <li>Interactive Portfolio Website</li>
+        <li>Resume Analyzer Tool</li>
+      </ul>
+    </section>
+
+    <section class="section" id="contact">
+      <h2>Contact Me</h2>
+      <form id="contactForm" novalidate>
+        <label for="name">Name *</label>
+        <input type="text" id="name" name="name" required placeholder="Your full name" />
+        <label for="email">Email *</label>
+        <input type="email" id="email" name="email" required placeholder="you@example.com" />
+        <label for="message">Message *</label>
+        <textarea id="message" name="message" rows="5" required placeholder="Write your message here..."></textarea>
+        <button type="submit" class="contact-btn">Send Message</button>
+      </form>
+    </section>
+
+    <footer>
+      © 2025 Abhinash Kumar Yadav — All rights reserved.
+    </footer>
+  </div>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
